@@ -1,0 +1,64 @@
+.employee-form {
+  /*max-width: 600px; */
+  margin: 20px auto;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f950;
+  font-family: Arial;
+  font-size: medium;
+  color: #0056b3;
+}
+
+.employee-form label {
+  display: block;
+font-weight: bold;
+  margin-top: 12px;
+}
+.td {
+  width: 30%;
+  text-align: right;
+}
+
+.employee-form input,
+.employee-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+.employee-form button {
+  margin-top: 16px;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.employee-form button:hover {
+  background-color: #0056b3;
+}
+
+.salary-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #e6f2ff; /* light blue */
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: small;
+}
+
+.salary-table th,
+.salary-table td {
+  border: 1px solid #b3d1ff;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.salary-table th {
+  background-color: #cce6ff;
+  font-weight: bold;
+}
