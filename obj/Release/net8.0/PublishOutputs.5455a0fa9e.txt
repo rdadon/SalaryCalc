@@ -1,0 +1,11 @@
+C:\Users\126435.M126435\Desktop\MolsaSalaryCalc\MolsaSalaryCalcBE\SalaryBE\publish\SalaryBE.exe
+C:\Users\126435.M126435\Desktop\MolsaSalaryCalc\MolsaSalaryCalcBE\SalaryBE\publish\appsettings.Development.json
+C:\Users\126435.M126435\Desktop\MolsaSalaryCalc\MolsaSalaryCalcBE\SalaryBE\publish\appsettings.json
+C:\Users\126435.M126435\Desktop\MolsaSalaryCalc\MolsaSalaryCalcBE\SalaryBE\publish\SalaryBE.dll
+C:\Users\126435.M126435\Desktop\MolsaSalaryCalc\MolsaSalaryCalcBE\SalaryBE\publish\SalaryBE.deps.json
+C:\Users\126435.M126435\Desktop\MolsaSalaryCalc\MolsaSalaryCalcBE\SalaryBE\publish\SalaryBE.runtimeconfig.json
+C:\Users\126435.M126435\Desktop\MolsaSalaryCalc\MolsaSalaryCalcBE\SalaryBE\publish\SalaryBE.pdb
+C:\Users\126435.M126435\Desktop\MolsaSalaryCalc\MolsaSalaryCalcBE\SalaryBE\publish\Microsoft.OpenApi.dll
+C:\Users\126435.M126435\Desktop\MolsaSalaryCalc\MolsaSalaryCalcBE\SalaryBE\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\126435.M126435\Desktop\MolsaSalaryCalc\MolsaSalaryCalcBE\SalaryBE\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\126435.M126435\Desktop\MolsaSalaryCalc\MolsaSalaryCalcBE\SalaryBE\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

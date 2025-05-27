@@ -1,0 +1,128 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SalaryBE",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/SalaryCalc": {
+      "post": {
+        "tags": [
+          "SalaryCalc"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/SalaryDetailsDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SalaryDetailsDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SalaryDetailsDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "EmployeeDTO": {
+        "type": "object",
+        "properties": {
+          "positionPercentage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "professionalLevel": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "managementLevel": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalYearsOfSeniority": {
+            "type": "number",
+            "format": "double"
+          },
+          "isEligibleForWorkAllowance": {
+            "type": "boolean"
+          },
+          "eligibilityGroup": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SalaryDetailsDTO": {
+        "type": "object",
+        "properties": {
+          "basicSalary": {
+            "type": "number",
+            "format": "double"
+          },
+          "seniorityIncrementRatePercent": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalSeniorityIncrement": {
+            "type": "number",
+            "format": "double"
+          },
+          "appointmentIncrement": {
+            "type": "number",
+            "format": "double"
+          },
+          "baseSalaryBeforeRaise": {
+            "type": "number",
+            "format": "double"
+          },
+          "salaryIncrementRatePercent": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalSalaryIncrement": {
+            "type": "number",
+            "format": "double"
+          },
+          "baseSalaryAfterRaise": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

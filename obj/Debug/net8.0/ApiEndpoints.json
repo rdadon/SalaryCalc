@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "SalaryBE.Controllers.SalaryCalcController",
+    "Method": "CalculateSalary",
+    "RelativePath": "api/SalaryCalc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "SalaryBE.DTO.EmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SalaryBE.DTO.SalaryDetailsDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
